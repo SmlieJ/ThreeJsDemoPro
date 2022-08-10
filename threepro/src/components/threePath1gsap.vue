@@ -58,7 +58,7 @@ export default {
       //材质 有不同的 MeshLambertMaterial MeshNormalMaterial 要去官方，有些赋值不了颜色
       let material = new Three.MeshNormalMaterial({ color: "#0000ff" });
       //网格
-      this.mesh = new Three.Mesh(geometry, material);
+      this.mesh = new Three.Mesh(geometry, material);   
       console.log("material", material);
       console.log("mesh", this.mesh);   
       // 设置位置
