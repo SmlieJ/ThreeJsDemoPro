@@ -59,7 +59,7 @@ export default {
       let material = new Three.MeshNormalMaterial({ color: "#0000ff" });
       //网格
       this.mesh = new Three.Mesh(geometry, material);   
-      console.log("material", material);
+      console.log("material", material);  
       console.log("mesh", this.mesh);   
       // 设置位置
       // this.mesh.position.set(4,0,0);
